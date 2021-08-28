@@ -9,7 +9,7 @@ import numpy as np
 
 a  = np.random.rand(3,1000)
 
-df = pd.DataFrame(a.head())
+df = pd.DataFrame(a).head()
 
 st.write(df)
 #st.set_config('browser.uiDirection', 'RTL')  # defaults to 'LTR'
