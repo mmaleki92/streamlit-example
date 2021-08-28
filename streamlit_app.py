@@ -21,15 +21,13 @@ input {
 
 st.markdown(
     """
-    <p>
-    
-    یکی از دلایلی که این کار را انجام می‌دهم
-    
-    </p>
+    <link href="//db.onlinewebfonts.com/c/6b75b24d502dab23003320c2e1b2fc68?family=Adobe+Arabic" rel="stylesheet" type="text/css"/>
+    <style> bdi {font-family: 'Adobe Arabic';}</style>
+
+    <p>The Arabic word for "website" is <bdi>موقع الكتروني</bdi></p>
     """,
     unsafe_allow_html=True,
 )
-
 """
 # Welcome to Streamlit!
 
