@@ -4,8 +4,14 @@ import math
 import pandas as pd
 import streamlit as st
 import multiprocessing
+import numpy as np
 
 
+a  = np.random.rand(3,3)
+
+df = pd.DataFrame(a)
+
+st.write(df)
 #st.set_config('browser.uiDirection', 'RTL')  # defaults to 'LTR'
 
 
