@@ -6,7 +6,18 @@ import streamlit as st
 import multiprocessing
 
 
-st.set_config('browser.uiDirection', 'RTL')  # defaults to 'LTR'
+#st.set_config('browser.uiDirection', 'RTL')  # defaults to 'LTR'
+
+
+st.markdown("""
+<style>
+input {
+  unicode-bidi:bidi-override;
+  direction: RTL;
+}
+</style>
+    """, unsafe_allow_html=True)
+
 
 """
 
