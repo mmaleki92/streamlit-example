@@ -2,3 +2,6 @@ altair
 pandas
 streamlit
 numpy
+pdfplumber
+PyPDF2
+docx2txt

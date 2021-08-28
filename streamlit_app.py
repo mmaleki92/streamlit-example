@@ -6,6 +6,7 @@ import streamlit as st
 import multiprocessing
 import numpy as np
 
+from read_file import main
 
 a  = np.random.rand(1000,3)
 
