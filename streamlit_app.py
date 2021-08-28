@@ -4,6 +4,10 @@ import math
 import pandas as pd
 import streamlit as st
 import multiprocessing
+
+
+st.set_config('browser.uiDirection', 'RTL')  # defaults to 'LTR'
+
 """
 
 یکی از دلایلی که این کار را انجام می‌دهم
