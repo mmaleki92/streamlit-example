@@ -7,7 +7,7 @@ import multiprocessing
 import numpy as np
 
 
-a  = np.random.rand(3,1000)
+a  = np.random.rand(1000,3)
 
 df = pd.DataFrame(a).head()
 
