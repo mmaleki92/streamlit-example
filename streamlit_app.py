@@ -21,6 +21,13 @@ input {
 
 st.markdown(
     """
+    <style>
+    p, div, input, label {
+    unicode-bidi:bidi-override;
+    direction: RTL;
+    text-align: right;
+    }
+    </style>
     <link href="//db.onlinewebfonts.com/c/6b75b24d502dab23003320c2e1b2fc68?family=Adobe+Arabic" rel="stylesheet" type="text/css"/>
     <style> bdi {font-family: 'Adobe Arabic';}</style>
 
